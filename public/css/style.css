@@ -1,0 +1,103 @@
+#home-section{
+    background-color:#0E0240;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color:#FFFFFF;
+}
+
+#latest-section{
+    background-color: #0E0240;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #FF3366;
+}
+
+#blog-section{
+    background-color: #0E0240;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color:#9012FD;
+}
+
+#coronahelp-section{
+    background-color:#0E0240;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    color: #BD0FE1;
+}
+
+.lastest-heading, .home-heading{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem;
+}
+
+.measure-head{
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem;
+}
+
+.tdim{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.col-sm{
+    margin-top: 0.5rem;
+}
+
+.shift{
+    margin-left: 1rem;
+}
+
+.bg-dark{
+    background-color:#0B0334!important;
+}
+
+.imgal{
+    text-align: center;
+}
+
+.rohan{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.measures{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 2rem;
+    color:#BD0FE1;
+}
+
+.helpline{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+.lastest-subh{
+    margin-top: -2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 3rem;
+}
+#footer-section{
+    background-color: #0B0334;
+    color: white;
+    padding: 1rem;
+}
+
+.card-title, .card-text{
+    color: black;
+    font-family: Poppins, sans-serif;
+}
+
+.spac{
+    margin-bottom: 2rem;
+}

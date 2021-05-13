@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Covid Tracker" content="Covid Tracker React App" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins:wght@600&family=Raleway:wght@500&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cpovid Tracker App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a style="font-size: 33px; color:white;" class="navbar-brand ml-3 fas fa-hand-holding-medical" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto mr-5">
+              <a class="nav-item nav-link active ml-2" href="#home-section"
+                  style="color: #F10999; font-family:'Poppins', sans-serif;">HOME <span
+                      class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link ml-2" href="#latest-section"
+                  style="color: #F10999; font-family:'Poppins', sans-serif;">LATEST</a>
+              <a class="nav-item nav-link ml-2" href="#coronahelp-section"
+                  style="color: #FBF85E; font-family:'Poppins', sans-serif;">KNOW ABOUT COVID-19</a>
+          </div>
+      </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm">
+                  <h2 class="rohan">Hey Debasish,</h2><br>
+                  <h6>here are data about India<br></h6>
+              </div>
+              <div class="col-sm spac">
+                  
+                <div id="root"></div>
+              </div>
+          </div>
+      </div>
+
+      <div class="container">
+          <div class="row spac">
+              <div class="col-sm imgal">
+                  <img src="./img/4.png" alt="corona-person" height="300" width="auto">
+              </div>
+              <div class="col-sm">
+                  <div class="col-sm measures"> Stay safe at home<br>
+                      Take proper hygeine & let's defeat this virus
+                      <br>
+                  </div>
+                  <div class="helpline spac">
+                      <p>
+                          Helpline number: +91-11-23978046</p>
+                      <p><a href="https://www.bhimupi.org.in/donation-digitized-with-bhim-upi">Click to donate</a></p>
+                  </div>
+
+              </div>
+          </div>
+
+          <hr style="background-color: white;">
+
+          <div>
+              <h2 class="home-heading">News from your area</h2>
+          </div>
+        </div>
+
+  </section>
+
+  <!-- Country View & Recent News -->
+
+  <section id="latest-section">
+      <div class="lastest-heading">Latest</div>
+      <div class="lastest-subh">
+          <h5>from around country, world</h5>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-md table-responsive-lg">
+
+                  <table class="table table-dark tdim table-bordered">
+                      <thead>
+                          <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">State</th>
+                              <th scope="col">Last-Count</th>
+                              <th scope="col">Rise/Stable</th>
+
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr style="background-color: #DC143C">
+                              <th scope="row">1</th>
+                              <th scope="row">Maharashtra</th>
+                              <td>132K</td>
+                              <td>---</td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">2</th>
+                              <th scope="row">Delhi</th>
+                              <td>59K</td>
+                              <td>---</td>
+
+                          </tr>
+                          <tr style="background-color: #DC143C">
+                              <th scope="row">3</th>
+                              <th scope="row">Rajasthan</th>
+                              <td>14K</td>
+                              <td>---</td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">4</th>
+                              <th scope="row">Karnataka</th>
+                              <td>9K</td>
+                              <td>---</td>
+
+                          </tr>
+                          <tr style="background-color: #DC143C">
+                              <th scope="row">5</th>
+                              <th scope="row">Tamil Nadu</th>
+                              <td>59K</td>
+                              <td>---</td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">6</th>
+                              <th scope="row">Gujarat</th>
+                              <td>27K</td>
+                              <td>---</td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">7</th>
+                              <th scope="row">Uttar Pradesh</th>
+                              <td>17K</td>
+                              <td>---</td>
+
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              <div class="col-md">
+                  <table class="table table-dark tdim table-bordered">
+                      <thead>
+                          <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Country</th>
+                              <th scope="col">Count</th>
+                              <th scope="col">Graph</th>
+
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <th scope="row">1</th>
+                              <th scope="row">World</th>
+                              <td>---</td>
+                              <td><img src="/img/g1.png" alt="" height="10px" width="60px"></td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">2</th>
+                              <th scope="row">United States of America</th>
+                              <td>---</td>
+                              <td><img src="/img/g1.png" alt="" height="10px" width="60px"></td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">3</th>
+                              <th scope="row">China</th>
+                              <td>---</td>
+                              <td><img src="/img/g1.png" alt="" height="10px" width="60px"></td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">4</th>
+                              <th scope="row">India</th>
+                              <td>---</td>
+                              <td><img src="/img/g1.png" alt="" height="10px" width="60px"></td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">5</th>
+                              <th scope="row">Russia</th>
+                              <td>---</td>
+                              <td><img src="/img/g1.png" alt="" height="10px" width="60px"></td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">6</th>
+                              <th scope="row">United Kingdom</th>
+                              <td>---</td>
+                              <td><img src="/img/g1.png" alt="" height="10px" width="60px"></td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row">7</th>
+                              <th scope="row">France</th>
+                              <td>---</td>
+                              <td><img src="/img/g1.png" alt="" height="10px" width="60px"></td>
+
+                          </tr>
+                      </tbody>
+                  </table>
+
+                
+              </div>
+          </div>
+      </div>
+  </section>
+
+  
+
+  <section id="coronahelp-section">
+      <h2 class="home-heading">Understand & Know COVID-19</h2>
+
+      <div class="container">
+          <center>
+              <div class="row">
+                  <div class="col-sm">
+                      <img src="./img/9.jpg" alt="" height="300px" width="80%">
+                  </div>
+                  <div class="col-sm">
+                      <div class="measure-head">What is COVID-19?<br></div>
+                      <p style="text-align: justify; color: white;"> Coronavirus disease (COVID-19) is an infectious
+                          disease caused
+                          by a newly discovered coronavirus.</p>
+                      <p style="text-align: justify; color: white;">Most common symptoms:<br>
+                          • fever<br>
+                          • dry cough<br>
+                          • tiredness</p>
+
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm mt-3">
+                      <img src="./img/11.jpg" alt="" height="300px" width="80%">
+                  </div>
+                  <div class="col-sm">
+                      <div class="measure-head">Prevention<br></div>
+                      <p style="text-align: justify; color: white;"> • Clean your hands often. Use soap and water, or
+                          an
+                          alcohol-based hand rub.<br>
+                          • Maintain social distancing<br>
+
+                          • Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.<br>
+                          • Stay home if you feel unwell.<br>
+                          • If you have a fever, cough and difficulty breathing, seek medical attention. Call in
+                          advance.<br>
+                          • Follow the directions of your local health authority.</p>
+
+                  </div>
+              </div>
+      </div>
+      </center>
+      </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+      <section id="footer-section">
+          <div class="container">
+              <center>
+                  <div class="row">
+                      <div class="col-sm">
+                          <a href="#"></a>
+                      </div>
+                      <div class="col-sm mt-3">
+                          Made with &hearts; Debasish Sahoo
+                      </div>
+                      <div class="col-sm">
+                          <a style="font-size: 30px; color: #F10999;" class="fab fa-github icon-size mr-3"
+                              href="#" height="20px" width="20px"></a>
+
+                          <a style="font-size: 30px; color: #F10999;" class="fab fa-linkedin icon-size mr-3"
+                              href="#" height="20px" width="20px">
+                              <a style="font-size: 30px; color: #F10999;" class="fab fa-instagram icon-size mr-3"
+                                  href="#" height="20px" width="20px"></a>
+                      </div>
+                  </div>
+              </center>
+          </div>
+      </section>
+  </footer>
+
+  <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" data-auto-replace-svg="nest"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
+
+
+
+
+
+    
+  </body>
+</html>
